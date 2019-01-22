@@ -1,0 +1,205 @@
+
+/*FOR INTRO.HTML*/
+.introBody {
+	height: 100%;
+	text-align: center;
+	/*Image from https://www.wallpapervortex.com/wallpaper-21033_fantasy_knight_two_kinghts_fighting.html#.XBnI3fZKhQI*/
+	background-image: url(../assets/fighting-knights.jpg);
+	background: cover;
+}
+
+.introHeading {
+	font-size: 100px;
+	color: white;
+	margin-bottom: 15px;
+}
+
+p {
+	color: #fff;
+}
+
+.playButton {
+	height: 60px;
+	width: 250px;
+	font-size: 35px;
+	color: #fff;
+	border: none;
+	border-radius: 8px;
+	background-color: #961C0F;
+	transition: width .3s, height .3s;
+}
+
+/*sourced from: https://www.w3schools.com/css/css3_transitions.asp*/
+
+.playButton:hover {
+	width: 290px;
+	height: 80px;
+	background-color: #2B5631;
+}
+
+.introMain {
+	margin-top: 324px
+}
+
+
+/*FOR INDEX.HTML*/
+
+.gameBoardBody {
+	text-align: center;
+	height: 100%;
+	padding: 4%;
+	/*Image from https://www.wallpapervortex.com/wallpaper-38372_fantasy_knight.html#.XBvOofZKhQJ*/
+	background-image: url(../assets/knight-main.jpg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+}
+
+.gameBoard {
+	height: 550px;
+	width: 950px;
+	/*background-image: url(../assets/stone-background.jpg);*/
+	background-image: url(../assets/wood-grain.jpg);
+	margin: 0 auto;
+	border-radius: 5px;
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+
+.flipButton {
+	margin-top: 30px;
+	height: 40px;
+	width: 200px;
+	text-align: center;
+	color: #fff;
+	background-color: #202624;
+}
+
+.flipButton:hover {
+	background-color: #607466;
+}
+
+/*Card back img sourced from https://www.artofplay.com/products/tally-ho-fan-back-playing-cards*/
+.playerOneDisplay {
+	height: 363px;
+	width: 250px;
+	box-shadow: 8px 8px 8px black;
+	background-image: url(../assets/cards/back2.png);
+
+}
+
+.playerTwoDisplay {
+	height: 363px;
+	width: 250px;
+	box-shadow: 8px 8px 8px black;
+	background-image: url(../assets/cards/back2.png);
+
+}
+
+.boardAndFlip {
+	flex-grow: 1;
+}
+
+.actionButtons {
+	align-self: flex-end;
+}
+
+.playerOneTally, .playerTwoTally, .title {
+	display: inline-block;
+}
+
+.title {
+	margin: 0 90px;
+}
+
+.flipButton {
+	align-self: flex-end;
+	margin-bottom: 10%;
+}
+
+.actionButtons {
+	position: absolute;
+}
+
+.reset {
+	background-color: #441818;
+	height: 40px;
+	width: 150px;
+	margin-left: 20px;
+	transition: height .2s, width .2s;
+}
+
+.reset:hover {
+	height: 45px;
+	width: 155px; 
+	background-color: #2B5631;
+}
+
+.forfeit {
+	background-color: #441818;
+	height: 40px;
+	width: 150px;
+	margin-right: 20px;
+	transition: height .2s, width .2s;
+}
+
+.forfeit:hover {
+	height: 45px;
+	width: 155px; 
+	background-color: #229E8F;
+}
+
+/*FOR FINAL PAGE*/
+
+.finalBody {
+	/*Image from: https://www.wallpapervortex.com/wallpaper-5345_other_hd_wallpapers_knight_sword.html#.XBvM-vZKhQI*/
+	background-image: url(../assets/winning-knight.jpg);
+	background-size: cover;
+}
+
+.finalWinner {
+	text-align: center;
+	font-size: 80px;
+	margin-top: 230px;
+}
+
+.title {
+	font-size: 60px;
+}
+
+h1, h2 {
+	font-family: 'MedievalSharp', cursive;
+}
+
+button {
+	font-family: 'Playfair Display SC', serif;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.playerOneTally, .playerTwoTally {
+	color: #720E03;
+}
+
+.forfeit, .reset, .flipButton {
+	color: #fff;
+	font-size: 20px;
+	border: none;
+	border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
